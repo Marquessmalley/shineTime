@@ -904,3 +904,16 @@ img {
     height: 30rem;
   }
 }
+
+/* CONFIRMATION PAGE */
+.main-confirm {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.confirm {
+  font-size: 2rem;
+  font-family: oswald;
+  color: #fff;
+}
