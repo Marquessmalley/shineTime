@@ -113,10 +113,13 @@ ul {
   display: flex;
   flex-direction: column;
   justify-content: center;
-
   font-family: oswald;
   font-size: 3rem;
   color: white;
+}
+.hero-title,
+.hero-desc {
+  margin-left: 2rem;
 }
 
 .about-btn {
@@ -742,16 +745,16 @@ img {
 }
 /* HERO SECTION */
 @media screen and (max-width: 800px) {
-  .hero {
+  /* .hero {
     width: 90%;
     margin: auto;
     margin-left: 2rem;
-  }
+  } */
 }
 @media screen and (max-width: 700px) {
-  .hero {
+  /* .hero {
     margin-left: 3rem;
-  }
+  } */
 }
 @media screen and (max-width: 450px) {
   .hero {
@@ -772,37 +775,39 @@ img {
 
 @media screen and (max-width: 961px) {
   .service-btn {
-    width: 60%;
+    width: 30%;
     text-align: center;
   }
-  .about-img img {
-    width: 100%;
+
+  .about-sec {
+    display: flex;
+    flex-direction: column;
   }
 }
 
 @media screen and (max-width: 801px) {
   .service-btn {
-    width: 70%;
+    width: 40%;
     text-align: center;
   }
   .about-img img {
-    width: 120%;
+    width: 100%;
     margin-top: 1rem;
   }
 }
 @media screen and (max-width: 686px) {
   .service-btn {
-    width: 80%;
+    width: 40%;
     text-align: center;
   }
   .about-img img {
     margin-top: 2rem;
-    width: 150%;
+    width: 100%;
   }
 }
 @media screen and (max-width: 600px) {
   .service-btn {
-    width: 100%;
+    width: 40%;
     text-align: center;
   }
   .about-img img {
@@ -815,13 +820,14 @@ img {
 @media screen and (max-width: 480px) {
   .about-sec {
     width: 100%;
-    margin-left: 2rem;
+    /* margin-left: 2rem; */
   }
+
   .about-img img {
-    width: 170%;
+    width: 100%;
   }
   .service-btn {
-    width: 110%;
+    width: 45%;
     text-align: center;
   }
 }
@@ -829,25 +835,22 @@ img {
   .about-desc h1 {
     font-size: 1.5rem;
   }
-  .about-img img {
-    margin-left: 2rem;
-  }
 }
 @media screen and (max-width: 436px) {
   .service-btn {
-    width: 120%;
+    width: 50%;
     text-align: center;
   }
 }
 @media screen and (max-width: 320px) {
   .service-btn {
-    width: 130%;
+    width: 65%;
     text-align: center;
   }
 }
 @media screen and (max-width: 295px) {
   .service-btn {
-    width: 140%;
+    width: 50%;
     text-align: center;
   }
   .about-img img {
@@ -885,12 +888,19 @@ img {
 }
 @media screen and (max-width: 533px) {
   .div {
-    width: 30%;
+    width: 40%;
     height: 30rem;
   }
 }
 @media screen and (max-width: 469px) {
   .price-desc {
     font-size: 0.8rem;
+  }
+}
+
+@media screen and (max-width: 399px) {
+  .div {
+    width: 50%;
+    height: 30rem;
   }
 }
